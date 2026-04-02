@@ -1,0 +1,3 @@
+- [[supervised fine-tuning (SFT)]]
+- [[parameter-efficient fine-tuning (PEFT)]]
+- [[alignment and preference tuning]]

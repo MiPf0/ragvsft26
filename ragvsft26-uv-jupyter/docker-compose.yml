@@ -1,0 +1,52 @@
+services:
+  jupyter:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ragvsft26-jupyter
+    env_file:
+      - .env
+    ports:
+      - "${JUPYTER_PORT:-8888}:8888"
+    volumes:
+      # ── Persistent project files ──────────────────────────────
+      # Mount the entire project folder into the container.
+      # Notebooks, data, scripts — everything you create inside
+      # /workspace is saved right here on your host machine.
+      - .:/workspace
+
+      # ── Persistent uv/pip cache ──────────────────────────────
+      # Named volume so downloaded packages survive container restarts.
+      # This means `uv pip install` is near-instant on rebuilds.
+      - uv-cache:/root/.cache/uv
+      - pip-cache:/root/.cache/pip
+
+      # ── Persistent venv ──────────────────────────────────────
+      # Named volume for the virtual environment so installed
+      # packages survive container restarts without re-installing.
+      - venv-data:/workspace/.venv
+
+      # ── Persistent Jupyter config & extensions ───────────────
+      - jupyter-data:/root/.jupyter
+      - jupyter-local:/root/.local
+    extra_hosts:
+      # This allows the container to reach services on the host
+      # machine (like Ollama) via "host.docker.internal"
+      - "host.docker.internal:host-gateway"
+    restart: unless-stopped
+    # Override CMD to properly expand the env var for the token
+    command: >
+      jupyter lab
+        --ip=0.0.0.0
+        --port=8888
+        --no-browser
+        --allow-root
+        --ServerApp.token=${JUPYTER_TOKEN:-dev-token-ragvsft26}
+        --notebook-dir=/workspace
+
+volumes:
+  uv-cache:
+  pip-cache:
+  venv-data:
+  jupyter-data:
+  jupyter-local:

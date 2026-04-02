@@ -1,0 +1,2 @@
+- [[local model hosting ollama]]
+- [[local containerization docker]]

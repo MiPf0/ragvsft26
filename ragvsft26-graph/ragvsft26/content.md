@@ -1,0 +1,3 @@
+- [[genai basics]]
+- [[rag]]
+- [[finetuning]]

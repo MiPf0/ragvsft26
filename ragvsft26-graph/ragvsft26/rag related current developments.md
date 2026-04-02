@@ -1,0 +1,3 @@
+- Alternative to RAG: Always-on Memory Agent?
+	- https://github.com/GoogleCloudPlatform/generative-ai/tree/main/gemini/agents/always-on-memory-agent
+	- ![[Pasted image 20260401145811.png]]

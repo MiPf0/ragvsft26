@@ -1,0 +1,2 @@
+- [[cloud model provider openrouter]]
+- [[cloud IDE with higher GPU resources Google Colab]]

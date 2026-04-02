@@ -1,0 +1,3 @@
+- [[knowledge question catalogue]]
+- Document: Local Machines Specs
+	- Link: [Local Machines Specs](https://fhburgenlandat-my.sharepoint.com/:w:/g/personal/michael_pfeiffer_hochschule-burgenland_at/IQCyTdoi64aGQ5-N75Vly__OAVmb7faSYI6cVN8Y9dnrnyg?e=qKe1lO)

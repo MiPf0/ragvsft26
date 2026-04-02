@@ -1,0 +1,9 @@
+- setting
+	- this is a workshop - a practically oriented lecture
+	- every student needs to collect hands-on experiences
+	- understanding behind concepts is relevant as well so students know what to do and why to do it
+- collaboration within teams, across teams maximizes learning effect
+	- shared documents, shared code sources
+	- we help each other out in case a colleague is stuck somewhere
+- teaching is the best way to internalize new stuff
+	- that's why we will have presentations

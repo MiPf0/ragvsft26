@@ -1,0 +1,3 @@
+- Github: https://github.com/microsoft/graphrag
+- Microsoft Research Blogpost: https://www.microsoft.com/en-us/research/blog/graphrag-unlocking-llm-discovery-on-narrative-private-data/
+- 

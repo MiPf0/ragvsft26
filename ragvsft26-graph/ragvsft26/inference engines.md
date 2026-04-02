@@ -1,0 +1,11 @@
+- llama.cpp
+	- cpp = C++
+	- Ollama is a wrapper with llama.cpp under the hood
+- bitnet.cpp
+	- Developed by Microsoft Research, **bitnet.cpp** is an inference framework designed specifically for **BitNet b1.58** models. These are often called "1-bit" models, though mathematically they use **1.58 bits** because they store weights as one of three values: -1, 0, or 1
+	- Github Repo Link: https://github.com/microsoft/BitNet
+- vllm
+- flash-moe
+	- What is it?
+	  running massive Mixture-of-Experts (MoE) models on consumer hardware by streaming weights from an SSD
+	- Github: https://github.com/danveloper/flash-moe

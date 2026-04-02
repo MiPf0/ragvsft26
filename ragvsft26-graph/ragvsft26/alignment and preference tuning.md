@@ -1,0 +1,3 @@
+- [[reinforcement learning with human feedback (RLHF)]]
+- [[direct preference optimization (DPO)]]
+- [[odds ratio preference optimization (ORPO)]]

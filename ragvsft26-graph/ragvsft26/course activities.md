@@ -1,0 +1,19 @@
+- all in all 14 LE
+
+- pre-work
+- session 1 (Mo 27.4., 18:30-20:10, 2LE, 100 Min.)
+	- welcoming
+	- attendance check
+	- course overview and utils overview
+	- [principles & mission](obsidian://open?vault=ragvsft26&file=principles%20%26%20mission)
+	- [T local machine specs table entry](obsidian://open?vault=ragvsft26&file=T%20local%20machine%20specs%20table%20entry)
+	- grouping
+	- assigning papers for first group presentation
+	- [T ollama inference example screenshot](obsidian://open?vault=ragvsft26&file=T%20ollama%20inference%20example%20screenshot)
+	- topics walkthrough jupyter paired with obsidian
+- session 2 (Sa 9.5., 08:30-17:15, 9LE, 450 Min.)
+	- ???
+- project work
+	- ???
+- session 3 (Tue 19.5., 18:30-21:00, 3LE, 150 Min.)
+	- ???

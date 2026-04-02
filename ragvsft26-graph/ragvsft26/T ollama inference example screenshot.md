@@ -1,0 +1,8 @@
+- Installations
+	- Install ollama on your machine
+	- Install docker on your machine
+- Download the project from GitHub
+	- asdf
+- Build the docker image from project folder
+	- ``docker compose up --build -d``
+- Start terminal in Jupyter and make curl request to ollama model

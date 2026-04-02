@@ -1,0 +1,5 @@
+- [[learning rate & schedulers]]
+- [[batch size & gradient accumulation]]
+- [[epochs]]
+- [[loss functions]]
+- [[optimizers]]

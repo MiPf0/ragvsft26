@@ -1,0 +1,2 @@
+- [[local setup]]
+- [[cloud setup]]

@@ -1,0 +1,7 @@
+- parameters are in neural network models simply "weights and biases" - but what does that mean?
+	- we want to have models to predict things
+	- easiest model is linear regression, y = w * x + b - not very accurately predictive, but 
+		- this model has 2 parameters (1 weight and 1 bias) and 2 dimensions (x and y)
+		- you start with data points and you want to find the model / function with the closest prediction ability to predict the true value
+		- the more data points, the better a value can be predicted
+		- also the more *dimensions*, the more fine-granular a value can be predicted
