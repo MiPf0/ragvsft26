@@ -9,7 +9,7 @@ services:
       - .env
     environment:
       # This overrides anything in the .env file and disables the login screen
-      - JUPYTER_TOKEN=""
+      - JUPYTER_TOKEN="abc"
     ports:
       - "${JUPYTER_PORT:-8888}:8888"
     volumes:
