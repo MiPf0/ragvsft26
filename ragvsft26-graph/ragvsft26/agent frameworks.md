@@ -1,2 +1,2 @@
-- [[OpenClaw]]
-- [[LangChain]]
+- OpenClaw
+- LangChain

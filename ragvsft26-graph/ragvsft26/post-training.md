@@ -1,0 +1,3 @@
+- [[instruction tuning]]
+- [[fine-tuning (SFT, LoRA, QLoRA)]]
+- [[RLHF or RLAIF or DPO]]

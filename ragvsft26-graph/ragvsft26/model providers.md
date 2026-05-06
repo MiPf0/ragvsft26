@@ -1,2 +1,2 @@
-- [[OpenAI]]
-- [[Anthropic]]
+- OpenAI
+- Anthropic

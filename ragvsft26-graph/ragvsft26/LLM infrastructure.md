@@ -1,4 +1,4 @@
+- [[inference engines]]
 - [[model providers]]
-- [[model aggregators]]
-- [[model routers]]
+- [[model routers and aggregators]]
 - [[agent frameworks]]

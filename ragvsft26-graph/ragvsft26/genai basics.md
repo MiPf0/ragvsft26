@@ -1,8 +1,6 @@
-- [[neural network models and transformers]]
-- [[agents, agentic ai, agentic behaviour]]
-- [[tools]]
-- [[inference engines]]
+- [[genai models]]
+- [[genai agents]]
 - [[systems, operationalization and design patterns]]
-- [[model optimization and compression]]
+- [[model modification and augmentation]]
 - [[LLM infrastructure]]
 

@@ -1,4 +1,0 @@
-- [[paradigms]]
-- [[training data]]
-- [[Finetuning Toolkits]]
-- [[hyperparameters & training configuration]]

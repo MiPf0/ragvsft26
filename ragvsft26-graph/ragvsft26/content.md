@@ -1,3 +1,3 @@
 - [[genai basics]]
-- [[rag]]
-- [[finetuning]]
+- [[rag focus]]
+- [[finetuning focus]]

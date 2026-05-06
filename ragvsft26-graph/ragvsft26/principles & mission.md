@@ -5,5 +5,7 @@
 - collaboration within teams, across teams maximizes learning effect
 	- shared documents, shared code sources
 	- we help each other out in case a colleague is stuck somewhere
+	- everyone presents something different so we learn maximally:
+		- Naive RAG alternatives
 - teaching is the best way to internalize new stuff
 	- that's why we will have presentations

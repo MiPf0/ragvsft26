@@ -1,4 +1,5 @@
 
+
 - why augmentation and design patterns?
 	- ![[Pasted image 20260402112854.png]]
 

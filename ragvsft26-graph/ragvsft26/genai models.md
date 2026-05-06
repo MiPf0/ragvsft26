@@ -1,13 +1,13 @@
-- [[closed vs. open weights or open source]]
-- [[model architectures]]
-- [[knowledge cutoff]]
-- [[model formats]]
-- [[industry benchmarks]]
-- [[parameters and dimensions]]
-- [[context window]]
-- [[vector embeddings]]
-- [[multimodality]]
-- [[hardware requirements]]
+- [[model theory and design]]
+- [[model pracitcalities]]
+- [[model ecosystem]]
+
+
+
+
+
+
+
 
 
 - "The Transformers" written by Mayank Pratap Singh (Mar 17, 2026)

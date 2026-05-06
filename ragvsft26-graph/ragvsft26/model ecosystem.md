@@ -1,0 +1,2 @@
+- [[closed vs. open weights or open source]]
+- [[industry benchmarks]]

@@ -3,3 +3,6 @@
 - [[Prompt Tuning]]
 - [[Prefix Tuning]]
 - [[Adapters]]
+
+- IBM: What is PEFT? https://www.ibm.com/think/topics/parameter-efficient-fine-tuning
+
