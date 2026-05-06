@@ -45,22 +45,9 @@ services:
         --ServerApp.token=${JUPYTER_TOKEN:-dev-token-ragvsft26}
         --notebook-dir=/workspace
 
-  milvus:
-    image: milvusdb/milvus:v2.4.4
-    container_name: ragvsft26-milvus
-    command: ["milvus", "run", "standalone"]
-    ports:
-      - "19530:19530"   # main API
-      - "9091:9091"     # optional monitoring
-    volumes:
-      - milvus-data:/var/lib/milvus
-    restart: unless-stopped
-
 volumes:
   uv-cache:
   pip-cache:
   venv-data:
   jupyter-data:
   jupyter-local:
-  milvus-data:
-
