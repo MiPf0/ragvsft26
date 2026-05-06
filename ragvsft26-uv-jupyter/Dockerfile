@@ -28,12 +28,15 @@ WORKDIR /workspace
 
 # ============================================================
 # Create a virtual environment with uv
-# The venv lives INSIDE the container but packages are cached
-# via a Docker volume so re-installs are instant.
+# Placed OUTSIDE /workspace (in /opt/venv) to prevent Docker
+# Compose volume mounts from overwriting the installed packages.
+# Docker caches this layer: if requirements.txt hasn't changed,
+# the build skips this step entirely. If it has changed, uv makes 
+# the rebuild extremely fast.
 # ============================================================
-RUN uv venv /workspace/.venv
-ENV VIRTUAL_ENV=/workspace/.venv \
-    PATH="/workspace/.venv/bin:$PATH"
+RUN uv venv /opt/venv
+ENV VIRTUAL_ENV=/opt/venv \
+    PATH="/opt/venv/bin:$PATH"
 
 # ============================================================
 # Copy and install requirements
