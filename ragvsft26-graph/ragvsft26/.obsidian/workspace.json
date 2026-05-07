@@ -31,8 +31,7 @@
               "title": "Untitled"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -196,8 +195,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "2a93a647695cd175",
+  "active": "6efaee76b5ba691e",
   "lastOpenFiles": [
+    "Untitled.md",
     "web scraping.md",
     "vector embeddings.md",
     "utils.md",
@@ -227,7 +227,6 @@
     "offline ingestion pipeline.md",
     "multimodality.md",
     "model providers.md",
-    "model formats.md",
     "Pasted image 20260427191918.png",
     "Pasted image 20260427191906.png",
     "rag design patterns "

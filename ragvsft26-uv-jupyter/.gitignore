@@ -6,6 +6,9 @@ dist/
 build/
 .venv/
 .Trash-0/
+chroma_db/
+notebooks/Untitled1.ipynb
+notebooks/Untitled2.ipynb
 
 # Jupyter
 .ipynb_checkpoints/

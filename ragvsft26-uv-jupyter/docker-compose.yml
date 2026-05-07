@@ -7,22 +7,12 @@ services:
     container_name: ragvsft26-jupyter
     env_file:
       - .env
-    environment:
-      # This overrides anything in the .env file and disables the login screen
-      - JUPYTER_TOKEN="abc"
     ports:
       - "${JUPYTER_PORT:-8888}:8888"
     volumes:
       # ── Persistent project files ──────────────────────────────
       - .:/workspace
 
-      # ── Persistent uv/pip cache ──────────────────────────────
-      - uv-cache:/root/.cache/uv
-      - pip-cache:/root/.cache/pip
-
-      # ── Persistent Jupyter config & extensions ───────────────
-      - jupyter-data:/root/.jupyter
-      - jupyter-local:/root/.local
     extra_hosts:
       - "host.docker.internal:host-gateway"
     restart: unless-stopped
@@ -32,11 +22,5 @@ services:
         --port=8888
         --no-browser
         --allow-root
-        --ServerApp.token=${JUPYTER_TOKEN:-dev-token-ragvsft26}
+        --ServerApp.token=""
         --notebook-dir=/workspace
-
-volumes:
-  uv-cache:
-  pip-cache:
-  jupyter-data:
-  jupyter-local:

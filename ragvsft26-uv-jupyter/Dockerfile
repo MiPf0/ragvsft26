@@ -13,6 +13,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     curl \
     git \
     build-essential \
+    tesseract-ocr \
+    libgl1 \
     && rm -rf /var/lib/apt/lists/*
 
 # ============================================================
@@ -49,7 +51,7 @@ RUN uv pip install -r /workspace/requirements.txt
 # ============================================================
 # Install the Jupyter kernel pointing at our venv
 # ============================================================
-RUN python -m ipykernel install --user --name ragvsft26 --display-name "Python (ragvsft26)"
+RUN /opt/venv/bin/python -m ipykernel install --sys-prefix --name ragvsft26 --display-name "Python (ragvsft26)"
 
 # ============================================================
 # Expose Jupyter port
